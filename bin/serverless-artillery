@@ -67,6 +67,7 @@ const yargs = require('yargs')
       type: 'string',
     },
   })
+  .command('scriptWizard', 'Run the Wizard to generate a test script.')
   .command('configure', 'Create a local copy of the deployment assets for modification and deployment.  See ' +
     'https://docs.serverless.com for documentation.', {})
   .demand(1)
